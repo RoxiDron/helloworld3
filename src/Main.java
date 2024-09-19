@@ -35,8 +35,8 @@ public class Main {
         byte ekaterinaAnreevna = 30;
         short  totalQuantity = ( short) (ludmilaPavlovna + annaSergeevna + ekaterinaAnreevna);
         System.out.println("Общее количество учеников " + totalQuantity);
-        short SheetsOfPaper = (short) (480 / totalQuantity);
-        System.out.println("На каждого ученика рассчитано " + SheetsOfPaper + " листов бумаги" );
+        short sheetsOfPaper = (short) (480 / totalQuantity);
+        System.out.println("На каждого ученика рассчитано " + sheetsOfPaper + " листов бумаги" );
         //Задание 4
         byte oneBottle = (byte) (16 / 2);
         System.out.println("За одну минуту " + oneBottle + " бутылок");
@@ -49,19 +49,19 @@ public class Main {
         short threeDay = 4320;
         int threeDayBottle = (threeDay* oneBottle);
         System.out.println("За 3 дня машина произвела " + threeDayBottle + " штук бутылок");
-        int Month = 43200;
-        int monthBottle = (Month * oneBottle);
+        int month = 43200;
+        int monthBottle = (month * oneBottle);
         System.out.println("За месяц машина произвела " + monthBottle + " штук бутылок");
         //Задание 5
         byte jars = 120;
         byte jarsWhite = 2;
         byte jarsBrown = 4;
         byte totalNumberOfCans = (byte) (2 + 4);
-        byte Class = (byte) (jars / totalNumberOfCans);
-        byte needWhitePaint = (byte) (Class * jarsWhite);
-        byte needSomeBrownPaint = (byte) (Class * jarsBrown);
+        byte class0 = (byte) (jars / totalNumberOfCans);
+        byte needWhitePaint = (byte) (class0 * jarsWhite);
+        byte needSomeBrownPaint = (byte) (class0 * jarsBrown);
 
-        System.out.println("В школе, где " + Class + " классов, нужно " + needWhitePaint + " банок белой краски и " + needSomeBrownPaint + " банок коричневой краски");
+        System.out.println("В школе, где " + class0 + " классов, нужно " + needWhitePaint + " банок белой краски и " + needSomeBrownPaint + " банок коричневой краски");
 
         //Задание 6
         short bananas1 = (short) (5 * 80);
@@ -82,16 +82,16 @@ public class Main {
         System.out.println("В среднем у спортсмена уйдёт " + x4 + " день");
         //Задание 8
 
-        int Masha = 67760;
-        int Denis = 83690;
-        int Kristina = 76230;
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
 
-        int salaryincreaseMasha = ((Masha * 10) / 100) + Masha;
-        int salaryincreaseDenis = ((Denis * 10) / 100) + Denis;
-        int salaryincreaseKristina =  ((Kristina * 10) / 100) + Kristina;
-        int annualincomeMasha = (salaryincreaseMasha * 12) - (Masha * 12);
-        int annualincomeDenis = (salaryincreaseDenis * 12) - (Denis * 12);
-        int annualincomeKristina = (salaryincreaseKristina * 12)  - (Kristina * 12);
+        int salaryincreaseMasha = ((masha * 10) / 100) + masha;
+        int salaryincreaseDenis = ((denis * 10) / 100) + denis;
+        int salaryincreaseKristina =  ((kristina * 10) / 100) + kristina;
+        int annualincomeMasha = (salaryincreaseMasha * 12) - (masha * 12);
+        int annualincomeDenis = (salaryincreaseDenis * 12) - (denis * 12);
+        int annualincomeKristina = (salaryincreaseKristina * 12)  - (kristina * 12);
 
         System.out.println("Маша теперь получает " + salaryincreaseMasha + " рублей. Годовой доход вырос на " + annualincomeMasha +" рублей.");
 
