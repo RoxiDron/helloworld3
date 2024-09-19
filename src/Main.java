@@ -29,6 +29,7 @@ public class Main {
         System.out.println(f);
         byte g = 67;
         System.out.println(g);
+
         //Задание 3
         byte ludmilaPavlovna = 23;
         byte annaSergeevna = 27;
